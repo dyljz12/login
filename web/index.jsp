@@ -6,9 +6,17 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%--<script>--%>
+    <%--$(function(){--%>
+
+        <%--var url = ""https://www.baidu.com"";--%>
+        <%--document.getElementById("interviewframe").src = url; // 此处ID需要修改同下面的iframe元素ID，每个页面不同--%>
+    <%--});--%>
+<%--</script>--%>
+
 <html>
   <head>
-    <title>$Title$</title>
+    <title>登陆</title>
   </head>
   <body>
   <div id="container" style="width: 300px;margin: 0px auto">

@@ -1,11 +1,10 @@
 import java.sql.*;
 
-
 public class UserDao {
     //根据用户名查找用户
     public User findUserByName(String userName){
         //编写sql语句
-        String sql="select * from Login where userName=?";
+        String sql="select * from user where userName=?";
         //获得连接
         Connection conn= DBUtil.getConnection();
         //有返回的结果
@@ -36,9 +35,9 @@ public class UserDao {
         return user;
     }
 
-    public static void main(String[] args) {
-        UserDao dao = new UserDao();
-        User i = dao.findUserByName("lxj");
-        System.out.println(i.getPassWord());
-    }
+//    public static void main(String[] args) {
+//        UserDao dao = new UserDao();
+//        User i = dao.findUserByName("test");
+//        System.out.println(i.getPassWord());
+//    }
 }
