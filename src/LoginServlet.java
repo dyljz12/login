@@ -25,7 +25,8 @@ public class LoginServlet extends HttpServlet {
 
         request.setAttribute("msg", msg);
         if(msg=="success"){
-            request.getRequestDispatcher("login_success.jsp").forward(request, response);
+            request.getRequestDispatcher("www.baidu.com").forward(request, response);
+
         }
         else{
             request.getRequestDispatcher("login_failure.jsp").forward(request, response);
